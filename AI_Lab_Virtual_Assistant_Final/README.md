@@ -1,4 +1,5 @@
 # AI Lab Final Project: Hybrid Intelligent Virtual Assistant
+Functional deployment link:  https://ai-virtual-assistant-1-xh2u.onrender.com
 
 ## Key Features & Fixes Included
 1. **Zero Port/Cache Conflict (`http://127.0.0.1:5050`):** Runs on port `5050` with `debug=False` so older cached servers on port `5000` never conflict.
