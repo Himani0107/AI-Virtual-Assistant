@@ -9,6 +9,7 @@ Run: python app.py
 from flask import Flask, render_template_string, request, jsonify
 from assistant import HybridVirtualAssistant
 
+
 app = Flask(__name__)
 bot = HybridVirtualAssistant(use_voice_output=False)
 
@@ -400,3 +401,9 @@ def chat():
 if __name__ == "__main__":
     print(f"Starting Hybrid AI Assistant Studio ({bot.get_brain_mode()}) at http://127.0.0.1:5050")
     app.run(debug=False, port=5050)
+    
+import os
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5050))
+    app.run(host="0.0.0.0", port=port, debug=False)
