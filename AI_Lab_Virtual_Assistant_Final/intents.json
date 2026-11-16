@@ -1,0 +1,154 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello", "hi", "hey", "hey assistant", "good morning",
+        "good afternoon", "good evening", "what's up", "greetings", "hi there", "yo"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! Hybrid AI Engine is online. Ask me anything!",
+        "Greetings! Ready for your next question or task."
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "who are you", "what is your name", "what can you do",
+        "introduce yourself", "tell me about yourself", "help", "features", "capabilities"
+      ],
+      "responses": [
+        "I am a Hybrid AI Virtual Assistant built for your AI Lab. I combine a local Ensemble NLP Classifier (Logistic Regression + TF-IDF Cosine Similarity) for fast utility commands with a Generative AI, Dictionary, and Smart Web/Wikipedia Knowledge Engine so I can answer any general question!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "what time is it", "tell me the time", "current time",
+        "what is the time right now", "time please", "show clock", "check time"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "what is today's date", "tell me the date", "current date",
+        "what day is it", "today date", "which day is today", "calendar date"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "what is the weather", "weather forecast", "temperature in",
+        "how is the weather today", "check weather", "is it raining in", "weather update"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "latest news", "top headlines", "tell me the news",
+        "what is happening in the world", "tech news", "today news", "news headlines"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "calculate",
+      "patterns": [
+        "calculate", "solve", "compute", "what is the value of",
+        "math", "evaluate", "add", "multiply", "divide", "subtract", "square root", "sin", "cos"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "unit_convert",
+      "patterns": [
+        "convert", "km to miles", "celsius to fahrenheit", "kg to pounds",
+        "meters to feet", "inches to cm", "how many miles in", "convert units"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "system_info",
+      "patterns": [
+        "system status", "cpu usage", "ram usage", "battery percentage",
+        "system info", "computer specs", "how much memory is free", "device info"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "open_web",
+      "patterns": [
+        "open youtube", "open google", "open github", "launch youtube",
+        "go to google", "open stackoverflow", "search google for", "play on youtube"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "todo_add",
+      "patterns": [
+        "add task", "new todo", "remind me to", "add to my todo list",
+        "schedule task", "create task", "put on my list"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "todo_show",
+      "patterns": [
+        "show tasks", "my todo list", "what are my tasks",
+        "pending tasks", "list todos", "view tasks"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "todo_done",
+      "patterns": [
+        "complete task", "mark task done", "finish task",
+        "delete task", "remove task", "done with task"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "summarize",
+      "patterns": [
+        "summarize this text", "shorten this", "give me a summary of",
+        "tldr", "summarize paragraph"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "tell me a joke", "make me laugh", "say something funny", "joke", "tech joke"
+      ],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs!",
+        "A SQL query walks into a bar, walks up to two tables and asks: 'Can I join you?'",
+        "There are 10 types of people in the world: those who understand binary, and those who don't.",
+        "Why did the neural network go to therapy? It had too many hidden layers of trauma."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you", "thanks", "thanks a lot", "appreciate it", "nice job", "awesome"
+      ],
+      "responses": [
+        "You're welcome! Let me know what's next.",
+        "Glad I could help!",
+        "Anytime! Ready when you are."
+      ]
+    },
+    {
+      "tag": "exit",
+      "patterns": [
+        "bye", "goodbye", "exit", "quit", "stop", "shut down", "see you"
+      ],
+      "responses": [
+        "Goodbye! Saving session state and shutting down."
+      ]
+    }
+  ]
+}

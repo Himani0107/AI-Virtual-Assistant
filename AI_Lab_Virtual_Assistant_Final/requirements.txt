@@ -1,0 +1,8 @@
+scikit-learn
+numpy
+wikipedia
+flask
+psutil
+pyttsx3
+google-genai
+python-dotenv
